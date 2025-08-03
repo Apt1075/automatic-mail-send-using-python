@@ -22,13 +22,13 @@ This project is a simple Python script to automate sending emails to multiple re
 ## 📂 Folder Structure
 
 automation-mail/
-│
-├── main.py # Core email sending script
-├── main_1.py # Older version or alternate test script
-├── 1_old.jpeg # Sample attachment 1
-├── 2_new.jpeg # Sample attachment 2
-├── README.md # Project description
-└── .gitignore # Ignores virtualenv, etc.
+
+- main.py # Core email sending script
+- main_1.py # Older version or alternate test script
+- 1_old.jpeg # Sample attachment 1
+- 2_new.jpeg # Sample attachment 2
+- README.md # Project description
+- .gitignore # Ignores virtualenv, etc.
 
 ## ⚙️ Setup
 
