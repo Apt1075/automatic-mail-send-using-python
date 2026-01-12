@@ -1,7 +1,7 @@
 import yagmail
 
 sender_email = "arpit.kumar1075@gmail.com"
-app_password = "dakwriyxkgnxqzcz"
+app_password = "dakwriyxkgnxqzcz" # Replace with your actual app password
 
 email_jobs = [
     {

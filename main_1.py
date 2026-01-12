@@ -16,7 +16,7 @@ if bcc_email:
     kwargs["bcc"] = bcc_email
 
 try:
-    yag = yagmail.SMTP("arpit.kumar1075@gmail.com", "dakwriyxkgnxqzcz")
+    yag = yagmail.SMTP("arpit.kumar1075@gmail.com", "") # Add your app password here
     yag.send(to=to_email, subject=subject, contents=contents, **kwargs)
     print("Email sent successfully!")
 except Exception as e:
