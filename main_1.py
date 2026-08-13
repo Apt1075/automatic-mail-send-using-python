@@ -1,4 +1,11 @@
+import os
 import yagmail
+from dotenv import load_dotenv
+
+load_dotenv()
+
+sender_email = os.getenv("SENDER_EMAIL", "")
+app_password = os.getenv("APP_PASSWORD", "")
 
 to_email = input("Enter recipient email: ").strip()
 cc_email = input("Enter CC email (optional, press Enter to skip): ").strip()
@@ -16,7 +23,7 @@ if bcc_email:
     kwargs["bcc"] = bcc_email
 
 try:
-    yag = yagmail.SMTP("arpit.kumar1075@gmail.com", "") # Add your app password here
+    yag = yagmail.SMTP(user=sender_email, password=app_password)
     yag.send(to=to_email, subject=subject, contents=contents, **kwargs)
     print("Email sent successfully!")
 except Exception as e:

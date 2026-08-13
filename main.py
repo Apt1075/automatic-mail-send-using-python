@@ -1,7 +1,11 @@
+import os
 import yagmail
+from dotenv import load_dotenv
 
-sender_email = "arpit.kumar1075@gmail.com"
-app_password = "" # Replace with your actual app password
+load_dotenv()
+
+sender_email = os.getenv("SENDER_EMAIL", "")
+app_password = os.getenv("APP_PASSWORD", "")
 
 email_jobs = [
     {
