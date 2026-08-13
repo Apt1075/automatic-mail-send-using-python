@@ -94,5 +94,6 @@ python main_1.py
 ## 🙋‍♂️ Author
 
 Made with ❤️ by **Arpit Kumar**
+- 🤖 **AI Resume Assistant**: [HireMe AI Assistant](https://hire-me-ai-front-end-six.vercel.app/)
 - 🔗 **LinkedIn**: [linkedin.com/in/apt1075](https://www.linkedin.com/in/apt1075)
 - 💻 **GitHub**: [github.com/Apt1075](https://github.com/Apt1075)
